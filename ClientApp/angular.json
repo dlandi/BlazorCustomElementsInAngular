@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "BlazorCustomElements"
+  "defaultProject": "BlazorCustomElements",
+  "cli": {
+    "analytics": false
+  }
 }
