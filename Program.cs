@@ -12,8 +12,8 @@ builder.Services.AddServerSideBlazor(options =>
 {
     options.RootComponents.RegisterCustomElement<Counter>("blazor-counter");
     options.RootComponents.RegisterCustomElement<Counter>("blazor-counter2");
-    //options.RootComponents.RegisterCustomElement<AlertMeterControl>("alert-meter");
-    options.RootComponents.RegisterCustomElement<AlertMeterWrapper>("alert-meter");
+    options.RootComponents.RegisterCustomElement<AlertMeterControl>("alert-meter");
+    //options.RootComponents.RegisterCustomElement<AlertMeterWrapper>("alert-meter");
 });
 
 builder.Services.AddMediatR(typeof(Program));
